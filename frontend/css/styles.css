@@ -8,7 +8,67 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-size: 1rem;
 }
 body{
-    /*background-color: var(--secondary-color);*/
+    background-color: transparent;
+    scroll-behavior: smooth;
+    scrollbar-width: 1px;
+
+}
+section{
+    padding: 10rem 7%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #aaa;
+    height: 18vh;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+    display: block;
+}
+.navbar{
+    width: 50%;
+}
+.navbar ul li{
+    display: inline-flex;
+    margin: 0 2rem;
+}
+.navbar ul li a{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.burger-menu{
+    color: var(--primary-color);
+    display: none;
+}
+.burger-menu:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.home{
+    background: url(../assets/images/LOGO2.png);
+    position: relative;
+}
+.home::before{
+    content: "ahhahahhah";
+    background-color: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0,0,0,.1));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
