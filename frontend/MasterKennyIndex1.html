@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "styles.css">
+<style>
+#preloader {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background-size: 20%;
+  background: #000 url(desktop/musicload.gif) no-repeat center center;
+}
+body{
+  background-image: url(./MASTER KENNY LOGO2.PNG);
+}
+div {
+	width: 60%;
+	height: 30%;
+}
+h1 {
+	text-align: center;
+	color: green;
+	font-family: comic-sans;
+	font-weight: bold;
+	text-align: justified;
+}
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color: darkred;
+  }
+</style>
+<script>
+
+	var loadingScreen = document.querySelector(".loadingScreen");
+	window.addEventListener('load', function() {
+  loadingScreen.style.display = 'none';
+})
+</script>
+</head>
+<body>
+<header>
+<img src = "MASTER KENNY LOGO.PNG" style = "width: 20%; height: 50%">
+</header>
+	<h1>*MasterKenny.Com*<br/></h1><h2>The Bolo House Master's Official Website
+	<h3>Who is Master Kenny?</h3><br/><br/>
+<div>
+<p>
+	Kenneth Maluleke, known professionally as <b>Master Kenny</b>, is a well-known South African musician and record producer.<br/>
+<br/> Over a 12 year career, he has worked with a variety of artists throughtout South Africa such as:<br/></p></div>
+<div><!--create a box containing images of each example with the name of the artist right beneath, maybe make it a seperate page-->
+</div>
+	He is also known as the pioneer
+of "Bolobedu" dance. Musical career Genres Electro - Afropop - House Occupation(s) Music producer - DJ -
+Vocalist Years active 2011 - present 
+	<!--Start "About" paragraph with " Born in Xihoko Village and raised in Bolobedu Ga Modjadji, Lenokwe Village..."-->
+		<p>
+		<div class = "preloader"></div>
+	  <div class="loadingScreen">
+      <img src="MASTER KENNY LOGO.png" alt="disc" />
+    </div>
+    <!--Create a box containing a playable link to one of his songs on YT (E.g. Ngala)
+    	figure out how to put things into tidier boxes and how to use word art on css-->
+</html>

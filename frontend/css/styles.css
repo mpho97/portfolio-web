@@ -1,0 +1,14 @@
+:root{
+    --primary-color: orange;
+    --secondary-color: indigo;
+    --gradient-color: linear-gradient(var(--primary-color), var(--secondary-color));
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: var(--secondary-color);
+}
